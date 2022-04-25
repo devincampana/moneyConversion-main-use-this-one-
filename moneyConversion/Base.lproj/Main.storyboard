@@ -162,8 +162,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sv5-iV-mjt">
-                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aCj-qy-Zn0">
+                                <rect key="frame" x="0.0" y="88" width="414" height="745"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <wkWebViewConfiguration key="configuration">
@@ -177,7 +177,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="9vR-Xm-O4n"/>
                     <connections>
-                        <outlet property="webView" destination="sv5-iV-mjt" id="B87-pt-9Xi"/>
+                        <outlet property="webView" destination="aCj-qy-Zn0" id="7vs-pf-fJI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ya7-Jb-ham" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -248,7 +248,7 @@
         <!--View Controller-->
         <scene sceneID="q9t-Dq-W0v">
             <objects>
-                <viewController id="Srl-Iw-GF2" sceneMemberID="viewController">
+                <viewController id="Srl-Iw-GF2" customClass="ETHViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cfn-FS-FbK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -259,13 +259,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cWK-5N-oT7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2468" y="-423"/>
+            <point key="canvasLocation" x="2819" y="-461"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3ol-8z-e1B">
             <objects>
-                <viewController id="tsy-aG-pat" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="UHV-sX-Ql9">
+                <viewController id="tsy-aG-pat" customClass="BTCViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UHV-sX-Ql9" customClass="BTCViewController">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="njh-G7-HXg"/>
